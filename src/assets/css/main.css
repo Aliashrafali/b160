@@ -1,0 +1,10 @@
+table thead tr th{
+    border: 0.1px solid #000;
+    padding: 3px 30px;
+    background-color: #000;
+    color: #fff;
+}
+table tbody tr td{
+    text-align: center;
+    border: 0.1px solid #000;
+}
