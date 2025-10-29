@@ -1,0 +1,33 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #EEE;
+}
+.grid-cards{
+    height: 320px;
+    background-color: #fff;
+    margin-top: 5%;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-top: 1px solid blue;
+    border-bottom: 1px solid blue;
+}
+.menu{
+    height: 60px;
+    padding-top: 12px;
+    background-color: red;
+}
+.menu nav ul li{
+    display: inline-block;
+}
+.menu nav ul li .nav{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 3px 7px;
+}
+.menu nav ul li .nav:hover{
+    background-color: #fff;
+    color: red;
+    border-radius: 3px;
+}
