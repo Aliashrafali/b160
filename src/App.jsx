@@ -3,13 +3,13 @@ import './App.css';
 // import Division from './components/Division';
 // import First from './components/First';
 // import Second from './components/Second';
-// import Form from './components/Form';
+import Form from './components/Form';
 // import Bootstrap from './components/Bootstrap';
 // import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 // import Menu from './components/Menu';
 // import About from './components/About';
 // import Prop from './components/Prop';
-import PrintData from './components/PrintData';
+// import PrintData from './components/PrintData';
 
 function App() {
   return (
@@ -44,7 +44,8 @@ function App() {
               </div>
           </div>
       </div> */}
-      <PrintData />
+      {/* <PrintData /> */}
+      <Form />
     </>
   )
 }
